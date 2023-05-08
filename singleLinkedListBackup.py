@@ -39,3 +39,6 @@ thirdNode = Node("Doe")
 linkedList.insert(thirdNode)
 
 linkedList.printList()
+print(firstNode)
+print(seconeNode)
+print(thirdNode)
