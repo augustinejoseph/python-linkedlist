@@ -2,6 +2,7 @@
 # Add
 # Remove
 # Traverse
+# Reverse
 
 class Node:
     def __init__(self, data):
@@ -132,8 +133,8 @@ LL1.add_end(11)
 LL1.add_begin(9)
 LL1.add_before(100, 10)
 LL1.add_before(90, 10)
-# LL1.delete_first()
-# LL1.delete_last()
+LL1.delete_first()
+LL1.delete_last()
 LL1.delete_by_value(900)
 LL1.reverse()
 LL1.printList()
