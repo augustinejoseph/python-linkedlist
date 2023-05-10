@@ -32,7 +32,7 @@ The code defines a Node class with two attributes: data and ref. The data attrib
 The LinkedList class is then defined, which represents the linked list data structure. It has one attribute: head. Initially, the value of head is set to None, indicating that the linked list is empty.
 
 ## Insert Methods
-```
+```ruby
     def add_begin(self, data):
         newNode = Node(data)
         newNode.ref = self.head
@@ -92,7 +92,7 @@ This method adds a new node with the given data value before the node with the g
 This method adds a new node with the given data value to an empty linked list. If the linked list is empty (i.e. self.head is None), it creates a new node with the given data value and sets the head attribute of the linked list to the new node. Otherwise, it prints a message indicating that the linked list is not empty.
 
 ## Delete Methods
-```
+```ruby
     def delete_first(self):
         if self.head is None:
             print('The list is empty')
@@ -144,7 +144,7 @@ This method deletes the node with the given x value from the linked list. If the
 
 ## Reverse Methods
 
-```
+```ruby
     def reverse(self):
         if self.head is None:
             print("List is empty")
@@ -166,7 +166,7 @@ Then, it enters a loop that iterates over the nodes in the linked list. At each 
 Finally, it sets the head attribute of the linked list to prev_node, which is the last node in the original linked list and the first node in the reversed linked list.
 
 ## Display node data:
-```
+```ruby
     def printList(self):
         if self.head is None:
             print("The list is empty")
